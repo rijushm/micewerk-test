@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Micewerkz Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+
+	<div class="imgBox">
+		<img src="back.jpg">
+		<div class="f-div">
+			<div class="related">
+				<a href="" class="fBtn "><i class="fas fa-circle-notch"></i> related</a>
+			</div>
+			<div class="buynow">
+				<a href="" class="fBtn "><i class="fas fa-shopping-cart"></i> Buy now</a>
+			</div>
+		</div>
+	</div>
+
+	<section class="main">
+		<div class="topBox">
+			<h2>Marrakech</h2>
+			<ul>
+				<li><a href="index.html" class="active">Information</a></li>
+				<li><a href="index.html">Tour plan</a></li>
+				<li><a href="index.html">Location</a></li>
+				<li><a href="index.html">Gallery</a></li>
+				<li><a href="index.html">Reviews</a></li>
+			</ul>
+		</div>
+
+
+		<div class="content">
+			<div class="row">
+				<div class="col-8">
+					<h4>Marrakech</h4>
+					<p class="diff"><i>Been there recently?</i></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="row">
+						<div class="col-3">
+							<div class="con">
+								<i class="far fa-clock"></i><br>
+								<span>7 Days</span>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="con">
+								<i class="far fa-user"></i><br>
+								<span>2+ Age</span>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="con">
+								<i class="fas fa-map-marker-alt"></i><br>
+								<span>Morocco</span>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="con">
+								<i class="far fa-sun"></i><br>
+								<span>Summer Deal</span>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="downCon">
+						<div class="row">
+							<div class="col-6">
+								<h5>Destination</h5>
+							</div>
+							<div class="col-6">
+								<p>Morocco</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-6">
+								<h5>Departurre</h5>
+							</div>
+							<div class="col-6">
+								<p>Main street, Taiwan</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-6">
+								<h5>Departure Time</h5>
+							</div>
+							<div class="col-6">
+								<p>Please arrive by 9.15 AM for a departure at 9.30 AM</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-6">
+								<h5>Return Time</h5>
+							</div>
+							<div class="col-6">
+								<p>Approximately 8.30 PM</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<h4>Book this tour</h4>
+					<form>
+						<label for="name"><i class="far fa-user"></i> </label>
+						<input type="name" name="name" id="name" required placeholder="Name *">
+
+						<label for="email"><i class="far fa-envelope"></i> </label>
+						<input type="email" name="email" id="email" required placeholder="Email *">
+
+						<label for="conEmail"><i class="far fa-envelope"></i> </label>
+						<input type="email" name="conEmail" id="conEmail" required placeholder="Confirm email *">
+
+						<label for="phone"><i class="fas fa-phone"></i></label>
+						<input type="tel" name="phone" id="phone" required placeholder="Phone *">
+
+						<label for="date"><i class="far fa-calendar"></i> </label>
+						<input type="text" name="date" id="date" placeholder="dd-mm-yy *" required>
+
+						<label for="tickets"><i class="fas fa-tags"></i> </label>
+						<input type="number" name="tickets" id="tickets" required placeholder="Number of tickets *">
+
+						<textarea class="" name="message" id="message" placeholder="Message"></textarea>
+
+						<a href="">Check availability <i class="fas fa-chevron-right"></i></a>
+
+						<button type="submit" name="submit">Book now</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script type="text/javascript">
+		document.querySelectorAll("input").onclick = () =>{
+			document.querySelectorAll("label").style.top = "0px";
+		}
+	</script>
+
+</body>
+</html>
